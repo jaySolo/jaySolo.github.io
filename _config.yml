@@ -30,7 +30,7 @@ author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
 author_email: "jamalsolomon@outlook.com"
 author_location: Antigua & Barbuda
 author_website_url: "http://johndoe.com"
-typewrite-text: Fullstack Web Developer, Mobile App Developer and IT Entueastit
+typewrite-text: Fullstack Web Developer, Mobile App Developer and IT enthusiast
 
 author_work_experiences:
             - company_name: Google
@@ -53,7 +53,6 @@ author_education_details:
                 college_degree: Computer Science & Technology
                 description: Bachelor of Engineering
                 visibility: true
-
               - college_logo: mit.png
                 college_name: MIT
                 college_url: https://mit.org
