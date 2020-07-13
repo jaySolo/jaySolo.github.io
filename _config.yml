@@ -1,7 +1,7 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: jaySolo
+subtitle: Jamal's Personal Website & Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  jaySolo-personal website and blog of Jamal J. A. Solomon
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,10 +26,10 @@ urls:
 
 author_logo: profile.png
 author: Jamal J. A. Solomon
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll
+author_bio: Hi, my name is Jamal J. A. Solomon. I am a fullstack web developer with many skills.
 author_email: "jamalsolomon@outlook.com"
 author_location: Antigua & Barbuda
-author_website_url: "http://johndoe.com"
+author_website_url: "https://jaysolo.github.io/"
 typewrite-text: Fullstack Web Developer, Mobile App Developer and IT enthusiast
 
 author_work_experiences:
@@ -48,10 +48,16 @@ author_work_experiences:
 
 author_education_details:
               - college_logo: ahnulogo.png
-                college_name: AHNU
+                college_name: Anhui Normal University
                 college_url: https://www.ahnu.edu.cn/
                 college_degree: Computer Science & Technology
-                description: Bachelor of Engineering
+                description: Bachelor of Engineering (BEng)
+                visibility: true
+              - college_logo: asclogo.png
+                college_name: Antigua State College
+                college_url: https://www.ahnu.edu.cn/
+                college_degree: Computer Science & Technology
+                description: CAPE Associates Degreee
                 visibility: true
               - college_logo: mit.png
                 college_name: MIT
@@ -138,8 +144,8 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 # Shop
-collections:
- - products
+# collections:
+#  - products
 
 # Gallery
 defaults:
