@@ -2,6 +2,7 @@ let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: light)");
 let theme = sessionStorage.getItem('theme');
 
 function prefersColorTest(systemInitiatedDark) {
+  /*
   if (systemInitiatedDark.matches) {
 	  document.documentElement.setAttribute('data-theme', 'dark');
 	   // document.getElementById("theme-toggle").innerHTML = "Light Mode";
@@ -11,6 +12,10 @@ function prefersColorTest(systemInitiatedDark) {
     // document.getElementById("theme-toggle").innerHTML = "Dark Mode";
     sessionStorage.setItem('theme', '');
   }
+  */
+	document.documentElement.setAttribute('data-theme', 'light');
+	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+	sessionStorage.setItem('theme', '');
 }
 systemInitiatedDark.addListener(prefersColorTest);
 
